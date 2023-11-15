@@ -16,7 +16,6 @@ struct Giri {
 }
 
 struct FourthScreen: View {
-    var giri: [Giri] = [Giri(giro: "")]
     @State var arrayDiGiri: [Giri] = [Giri(giro: "")]
     @State var isTimerRunning = false
     @State private var startTime =  Date()
@@ -24,7 +23,6 @@ struct FourthScreen: View {
     let timer = Timer.publish(every: 0.01, on: .main, in: .common).autoconnect()
     init() {
         arrayDiGiri = [Giri(giro: "")]
-        self.giri = []
     }
 
     var body: some View {
@@ -68,8 +66,6 @@ struct FourthScreen: View {
             ScrollView {
                 VStack {
                     ForEach (arrayDiGiri, id:\.id) { giro in
-                        //ext(giro.giro)
-                        //Text("ok")
                         Text(giro.giro)
                     }
                 }
@@ -83,37 +79,3 @@ struct FourthScreen: View {
     FourthScreen()
 }
 
-
-/*
-var timerControls: some View {
-    var model : TimerViewModel
-    HStack {
-        Button("Cancel") {
-            model.state = .cancelled
-        }
-        .buttonStyle(.automatic)
-        
-
-        Spacer()
-
-        switch model.state {
-        case .cancelled:
-            Button("Start") {
-                model.state = .active
-            }
-            .buttonStyle(.automatic)
-           
-        case .paused:
-            Button("Resume") {
-                model.state = .resumed
-            }
-            .buttonStyle(.automatic)
-        case .active, .resumed:
-            Button("Pause") {
-                model.state = .paused
-            }
-            .buttonStyle(.automatic)
-        }
-    }
-    .padding(.horizontal, 32)
- }*/
