@@ -40,8 +40,7 @@ struct FourthScreen: View {
             
             HStack {
                 Button {
-                    var giroTest = timerString
-                    var x = Giri(giro: giroTest)
+                    let giroTest = timerString
                     arrayDiGiri.append(Giri(giro: giroTest))
                 } label: {
                     Text("Giro")
