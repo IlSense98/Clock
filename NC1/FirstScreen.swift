@@ -22,7 +22,7 @@ struct FirstScreen: View {
                 Image(systemName: "stopwatch")
                 Text("Cronometro")
             }
-            FifthScreen().tabItem{
+           ContentView().tabItem{
                 Image(systemName: "timer")
                 Text("Timer")
             }
