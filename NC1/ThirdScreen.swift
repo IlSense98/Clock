@@ -29,16 +29,11 @@ struct ThirdScreen: View {
            
         }
         
-        Toggle(isOn: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Is On@*/.constant(true)/*@END_MENU_TOKEN@*/) {
-            Text("")
-                .padding()
-                 Spacer()
+        
         }
         
         
     }
-}
-
 #Preview {
     ThirdScreen()
 }
