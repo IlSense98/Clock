@@ -12,28 +12,29 @@ struct ThirdScreen: View {
         VStack{
             HStack {
                 
-            
+                
                 Text("Modifica")
                     .padding()
                 Spacer()
-            Button {
-                /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
-            } label: {
-                Image(systemName: "plus")
-                    .foregroundColor(.black)
+                Button {
+                    /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
+                } label: {
+                    Image(systemName: "plus")
+                        .foregroundColor(.black)
                     
+                }
+                .padding()
             }
-            .padding()
-        }
             Spacer()
-           
+            
         }
-        
-        
-        }
-        
         
     }
+    
+    
+}
+
+
 #Preview {
     ThirdScreen()
 }

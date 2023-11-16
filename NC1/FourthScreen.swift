@@ -8,10 +8,10 @@
 import SwiftUI
 struct Giri {
     let id = UUID()
-     var giro: String
+    var giro: String
     static var sampleGiro : [Giri] = [
-    Giri(giro: ""),
-    Giri(giro: "2"),
+        Giri(giro: ""),
+        Giri(giro: "2"),
     ]
 }
 
@@ -24,7 +24,7 @@ struct FourthScreen: View {
     init() {
         arrayDiGiri = [Giri(giro: "")]
     }
-
+    
     var body: some View {
         VStack {
             Text(self.timerString)
@@ -34,7 +34,7 @@ struct FourthScreen: View {
                         timerString = String(format: "%.2f", (Date().timeIntervalSince( self.startTime)))
                     }
                 }
-               
+            
             
             HStack {
                 Button {
