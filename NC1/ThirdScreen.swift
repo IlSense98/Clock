@@ -11,6 +11,8 @@ struct ThirdScreen: View {
     var body: some View {
         VStack{
             HStack {
+                
+            
                 Text("Modifica")
                     .padding()
                 Spacer()
@@ -26,6 +28,14 @@ struct ThirdScreen: View {
             Spacer()
            
         }
+        
+        Toggle(isOn: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Is On@*/.constant(true)/*@END_MENU_TOKEN@*/) {
+            Text("")
+                .padding()
+                 Spacer()
+        }
+        
+        
     }
 }
 
