@@ -5,4 +5,12 @@
 //  Created by Fernando Sensenhauser on 16/11/23.
 //
 
-import Foundation
+import SwiftUI
+
+struct CountdownApp: App {
+    var body: some Scene {
+        WindowGroup {
+          FifthScreen()
+        }
+    }
+}
