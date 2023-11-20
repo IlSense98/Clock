@@ -8,9 +8,10 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var countdownTimer = 10
-    @State var timerRunning = false
-    let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
+    
+    @State var countdownTimer: Int =  10
+    @State var timerRunning: Bool = false
+    @State var timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
     
     
     var body: some View {
@@ -18,30 +19,44 @@ struct ContentView: View {
             Text("\(countdownTimer)")
                 .padding()
                 .onReceive(timer) { _ in
-                    if countdownTimer > 0 && timerRunning {
+                    print(countdownTimer, timerRunning)
+                    if (countdownTimer > 0 && timerRunning) {
                         countdownTimer -= 1
-                    } else {
-                        timerRunning = false
                     }
-                    
                 }
                 .font(.system(size: 40, weight: .bold))
             
             HStack(spacing:30) {
-                Button("Start") {
-                    timerRunning = true
-                }
                 
-                Button("Reset") {
+                Button(action: {
+                        timerRunning = true
+                }, label: {
+                    Text("Start")
+                })
+             
+                
+//                Button(action: {
+//                    timerRunning = true
+//                },
+//                       label: {
+//                    Text("Start")
+//                })
+
+                Button(action: {
+                    //per resettare il timer
+//                    timer.upstream.connect().cancel()
+                   // self.timer.upstream.connect().cancel()
                     countdownTimer = 10
-                }.foregroundColor(.red)
+                    timerRunning = false
+                }, label: {
+                    Text("Reset")
+                })
+                .foregroundColor(.red)
             }
         }
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
+#Preview {
+    ContentView()
 }
