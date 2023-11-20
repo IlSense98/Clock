@@ -16,7 +16,7 @@ struct FirstScreen: View {
                 Image(systemName: "globe")
                 Text("Ore locali")
             }
-            ThirdScreen().tabItem{
+            AlarmView().tabItem{
                 Image(systemName: "alarm")
                 Text("Sveglia")
             }
