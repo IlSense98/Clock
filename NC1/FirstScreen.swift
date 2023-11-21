@@ -11,22 +11,18 @@ struct FirstScreen: View {
     var body: some View {
         
         
-        Toggle(isOn: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Is On@*/.constant(true)/*@END_MENU_TOKEN@*/) {
-            
-        }
-        
         TabView {
             SecondScreen().tabItem {
                 Image(systemName: "globe")
-                Text("Ore locali")
+                Text("Local times")
             }
-            ThirdScreen().tabItem{
+            AlarmView().tabItem{
                 Image(systemName: "alarm")
-                Text("Sveglia")
+                Text("Alarm")
             }
             FourthScreen().tabItem {
                 Image(systemName: "stopwatch")
-                Text("Cronometro")
+                Text("Stopwatch")
             }
            ContentView().tabItem{
                 Image(systemName: "timer")
