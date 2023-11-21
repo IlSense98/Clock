@@ -41,7 +41,7 @@ struct FourthScreen: View {
                     let giroTest = timerString
                     arrayDiGiri.append(Giri(giro: giroTest))
                 } label: {
-                    Text("Giro")
+                    Text("Lap")
                 }
                 .padding()
                 
@@ -55,10 +55,10 @@ struct FourthScreen: View {
                     isTimerRunning.toggle()
                 } label: {
                     if isTimerRunning == false{
-                        Text("Avvia")
+                        Text("Start")
                     }
                     else {
-                        Text("Interrompi")
+                        Text("Stop")
                     }
                 }
                 .padding()
