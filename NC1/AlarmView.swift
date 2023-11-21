@@ -30,7 +30,7 @@ struct AddAlarmView: View {
                 Spacer()
             }
             .padding(.top, 50)
-            .preferredColorScheme(.dark)
+            .preferredColorScheme(.light)
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Button {
@@ -39,7 +39,7 @@ struct AddAlarmView: View {
                     } label: {
                         Text("Save")
                             .font(.title3)
-                            .foregroundColor(.orange)
+                            .foregroundColor(.blue)
                             .bold()
                     }
                 }

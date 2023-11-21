@@ -62,14 +62,14 @@ struct AlarmView: View {
                 }
             }
             .navigationTitle("Alarms")
-            .preferredColorScheme(.dark)
+            .preferredColorScheme(.light)
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Button {
                         showAddAlarmView.toggle()
                     } label: {
                         Image(systemName: "plus")
-                            .foregroundColor(.orange)
+                            .foregroundColor(.blue)
                     }
                 }
             }

@@ -14,15 +14,15 @@ struct FirstScreen: View {
         TabView {
             SecondScreen().tabItem {
                 Image(systemName: "globe")
-                Text("Ore locali")
+                Text("Local times")
             }
             AlarmView().tabItem{
                 Image(systemName: "alarm")
-                Text("Sveglia")
+                Text("Alarm")
             }
             FourthScreen().tabItem {
                 Image(systemName: "stopwatch")
-                Text("Cronometro")
+                Text("Stopwatch")
             }
            ContentView().tabItem{
                 Image(systemName: "timer")
