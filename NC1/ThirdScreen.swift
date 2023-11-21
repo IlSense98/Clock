@@ -18,9 +18,9 @@ struct AlarmView: View {
                         VStack(alignment: .leading) {
                             Text(alarm.time, style: .time)
                                 .font(.largeTitle)
-                                .foregroundColor(alarm.isOn ? .white : .gray)
+                                .foregroundColor(alarm.isOn ? .black : .gray)
                             Text(alarm.label)
-                                .foregroundColor(alarm.isOn ? .white : .gray)
+                                .foregroundColor(alarm.isOn ? .black : .gray)
                         }
                         Spacer()
                         Toggle("", isOn: Binding<Bool>(
