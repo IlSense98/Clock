@@ -67,15 +67,16 @@ struct FourthScreen: View {
                 VStack {
                     ForEach (arrayDiGiri, id:\.id) { giro in
                         Text(giro.giro)
+                        Divider() // Add a divider between laps                    }
                     }
                 }
             }
         }
     }
+    
+    
+    #Preview {
+        FourthScreen()
+    }
+    
 }
-
-
-#Preview {
-    FourthScreen()
-}
-
