@@ -9,6 +9,7 @@ import SwiftUI
 
 @main
 struct NC1App: App {
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
     var body: some Scene {
         WindowGroup {
             FirstScreen()

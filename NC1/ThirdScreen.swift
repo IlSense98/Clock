@@ -18,9 +18,9 @@ struct AlarmView: View {
                         VStack(alignment: .leading) {
                             Text(alarm.time, style: .time)
                                 .font(.largeTitle)
-                                .foregroundColor(alarm.isOn ? .white : .gray)
+                                .foregroundColor(alarm.isOn ? .black : .gray)
                             Text(alarm.label)
-                                .foregroundColor(alarm.isOn ? .white : .gray)
+                                .foregroundColor(alarm.isOn ? .black : .gray)
                         }
                         Spacer()
                         Toggle("", isOn: Binding<Bool>(
@@ -32,7 +32,7 @@ struct AlarmView: View {
                             }
                         ))
                     }
-                    .swipeActions(edge: .leading) {
+                    .swipeActions(edge: .trailing) {
                         Button {
                             if let index = alarms.firstIndex(of: alarm) {
                                 alarms.remove(at: index)
@@ -75,18 +75,15 @@ struct AlarmView: View {
             }
             .sheet(isPresented: $showAddAlarmView) {
                 AddAlarmView(alarms: $alarms)
+                    .onAppear {
+                                // Request notification permissions
+                                UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .sound]) { _, _ in }
+                            }
             }
         }
     }
 }
 
-
-struct Alarm: Identifiable, Equatable {
-    var id = UUID() // provide default value
-    var time: Date
-    var label = "" // provide default value
-    var isOn: Bool
-}
 
 
 struct ContentView_Previews: PreviewProvider {

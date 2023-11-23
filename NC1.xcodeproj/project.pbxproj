@@ -16,6 +16,7 @@
 		1712D4CE2B04F4640076BDEB /* FourthScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1712D4CD2B04F4640076BDEB /* FourthScreen.swift */; };
 		1712D4D02B04F46F0076BDEB /* FifthScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1712D4CF2B04F46F0076BDEB /* FifthScreen.swift */; };
 		174C5FFE2B065E7B00089E10 /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174C5FFD2B065E7B00089E10 /* Timer.swift */; };
+		175859702B0FEA26007CDF73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1758596F2B0FEA26007CDF73 /* AppDelegate.swift */; };
 		17A19F9C2B0BBF7A00A030A7 /* AlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A19F9B2B0BBF7A00A030A7 /* AlarmView.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,7 @@
 		1712D4CD2B04F4640076BDEB /* FourthScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthScreen.swift; sourceTree = "<group>"; };
 		1712D4CF2B04F46F0076BDEB /* FifthScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthScreen.swift; sourceTree = "<group>"; };
 		174C5FFD2B065E7B00089E10 /* Timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
+		1758596F2B0FEA26007CDF73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17A19F9B2B0BBF7A00A030A7 /* AlarmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,6 +74,7 @@
 				1712D4CD2B04F4640076BDEB /* FourthScreen.swift */,
 				1712D4CF2B04F46F0076BDEB /* FifthScreen.swift */,
 				174C5FFD2B065E7B00089E10 /* Timer.swift */,
+				1758596F2B0FEA26007CDF73 /* AppDelegate.swift */,
 				1712D4BC2B04F1BA0076BDEB /* Assets.xcassets */,
 				1712D4BE2B04F1BA0076BDEB /* NC1.entitlements */,
 				1712D4BF2B04F1BA0076BDEB /* Preview Content */,
@@ -160,6 +163,7 @@
 				1712D4CE2B04F4640076BDEB /* FourthScreen.swift in Sources */,
 				1712D4D02B04F46F0076BDEB /* FifthScreen.swift in Sources */,
 				17A19F9C2B0BBF7A00A030A7 /* AlarmView.swift in Sources */,
+				175859702B0FEA26007CDF73 /* AppDelegate.swift in Sources */,
 				174C5FFE2B065E7B00089E10 /* Timer.swift in Sources */,
 				1712D4B92B04F1B90076BDEB /* NC1App.swift in Sources */,
 				1712D4C82B04F2950076BDEB /* FirstScreen.swift in Sources */,
