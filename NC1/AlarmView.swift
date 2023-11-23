@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import AVFoundation
 
 
 struct AddAlarmView: View {
@@ -35,6 +36,7 @@ struct AddAlarmView: View {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Button {
                         alarms.append(Alarm(time: date, label: label, isOn: true))
+                        scheduleNotification(for: Alarm(time: date, label: label, isOn: true))
                         dismiss()
                     } label: {
                         Text("Save")
@@ -47,6 +49,28 @@ struct AddAlarmView: View {
         }
     }
 }
+
+func scheduleNotification(for alarm: Alarm) {
+
+    let content = UNMutableNotificationContent()
+    content.title = "Alarm"
+    content.body = "Time to \(alarm.label)"
+    content.sound = UNNotificationSound.default
+    let components = Calendar.current.dateComponents([.year, .month, .hour, .minute], from: alarm.time)
+    let trigger = UNCalendarNotificationTrigger(dateMatching: components, repeats: false)
+
+    let request = UNNotificationRequest(identifier: alarm.id.uuidString, content: content, trigger: trigger)
+    UNUserNotificationCenter.current().add(request)
+}
+
+struct Alarm: Identifiable, Equatable {
+    var id = UUID() // provide default value
+    var time: Date
+    var label = "" // provide default value
+    var isOn: Bool
+}
+
+
 
 struct AddAlarmView_Previews: PreviewProvider {
     static var previews: some View {
