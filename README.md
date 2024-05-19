@@ -55,16 +55,13 @@ Thank you for checking out Clock! I hope you find it useful and enjoy using it a
 </div>
 
 
- <img src="![IMG_1626](https://github.com/IlSense98/Clock/assets/148085463/eaf7ad26-3543-48a7-8a2d-cb51db42f516)
-" width="500" />
+ <img src="https://github.com/IlSense98/Clock/assets/148085463/eaf7ad26-3543-48a7-8a2d-cb51db42f516" width="500" />
 </div>
 
 
- <img src="![IMG_1627](https://github.com/IlSense98/Clock/assets/148085463/40b973a3-b746-4552-8409-e0f8b80b1510)
-" width="500" />
+ <img src="https://github.com/IlSense98/Clock/assets/148085463/40b973a3-b746-4552-8409-e0f8b80b1510" width="500" />
 </div>
 
 
-<img src="![IMG_1628](https://github.com/IlSense98/Clock/assets/148085463/8efccf0f-3730-4503-b4a5-46591f658c58)
-" width="500" />
+<img src="https://github.com/IlSense98/Clock/assets/148085463/8efccf0f-3730-4503-b4a5-46591f658c58" width="500" />
 </div>
