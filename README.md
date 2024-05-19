@@ -50,8 +50,7 @@ Thank you for checking out Clock! I hope you find it useful and enjoy using it a
 
 
 <img 
-  src     ="![IMG_1625](https://github.com/IlSense98/Clock/assets/148085463/fddcd945-ff25-4ec4-adeb-de0a38e28ebc)
-"
+  src     ="https://github.com/IlSense98/Clock/assets/148085463/fddcd945-ff25-4ec4-adeb-de0a38e28ebc"
  width="500" />
 </div>
 
