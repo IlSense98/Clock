@@ -49,7 +49,23 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 Thank you for checking out Clock! I hope you find it useful and enjoy using it as much as i enjoyed building it.
 
 
-![IMG_1625](https://github.com/IlSense98/Clock/assets/148085463/9768363e-b37a-4d60-a3a8-878bcac33282)
-![IMG_1626](https://github.com/IlSense98/Clock/assets/148085463/efd07764-8e8c-4d0b-86a5-832483fc15fd)
-![IMG_1627](https://github.com/IlSense98/Clock/assets/148085463/738ed990-f3dd-4179-9ff0-705170c6ad5b)
-![IMG_1628](https://github.com/IlSense98/Clock/assets/148085463/02fa2d34-678b-41b0-96e6-6a0de58e3d7b)
+<img 
+  src     ="![IMG_1625](https://github.com/IlSense98/Clock/assets/148085463/fddcd945-ff25-4ec4-adeb-de0a38e28ebc)
+"
+ width="500" />
+</div>
+
+
+ <img src="![IMG_1626](https://github.com/IlSense98/Clock/assets/148085463/eaf7ad26-3543-48a7-8a2d-cb51db42f516)
+" width="500" />
+</div>
+
+
+ <img src="![IMG_1627](https://github.com/IlSense98/Clock/assets/148085463/40b973a3-b746-4552-8409-e0f8b80b1510)
+" width="500" />
+</div>
+
+
+<img src="![IMG_1628](https://github.com/IlSense98/Clock/assets/148085463/8efccf0f-3730-4503-b4a5-46591f658c58)
+" width="500" />
+</div>
