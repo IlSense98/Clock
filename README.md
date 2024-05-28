@@ -1,6 +1,6 @@
 # Clock
 
-Clock is a Swift-based project that aims to replicate the functionality of Apple's native Clock application. The app includes features such as alarms, timers, stopwatches with lap functionality, and world clock capabilities. This is my first project in Swift.
+Clock is a Swift-based project that aims to replicate the functionality of Apple's native Clock application. The app includes features such as alarms, timer and stopwatches with lap functionality. This is my first project in Swift.
 
 ## Features
 
