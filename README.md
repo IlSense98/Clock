@@ -7,7 +7,7 @@ Clock is a Swift-based project that aims to replicate the functionality of Apple
 - **Alarms**: Set multiple alarms with customizable notification sounds and repeat intervals.
 - **Timers**: Create and manage timers with adjustable durations.
 - **Stopwatch**: A fully functional stopwatch with the ability to record lap times.
-- **World Clock**: Display the current date and time for various locations around the world.
+
 
 ## Usage
 
@@ -33,12 +33,6 @@ Clock is a Swift-based project that aims to replicate the functionality of Apple
 4. Tap "Stop" to stop the stopwatch.
 5. Tap "Reset" to clear the stopwatch and lap times.
 
-### World Clock
-
-1. Navigate to the World Clock tab.
-2. Tap the "+" button to add a new city.
-3. Search for and select the city you wish to add.
-4. The current time for the selected city will be displayed.
 
 ## License
 
